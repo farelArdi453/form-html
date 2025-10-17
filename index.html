@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata Farel Ardiansyah</title>
+</head>
+<body>
+    <h1 align="center">FORM BIODATA FAREL ARDIANSYAH</h1>
+
+    <form method="post">
+        <table align="center" cellpadding="5">
+            <tr>
+                <td>Tempat Lahir</td>
+                <td><input type="text" name="Tempat_Lahir"></td>
+            </tr>
+
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date" name="Tanggal_Lahir"></td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" name="jk" value="laki-laki"> Laki-laki
+                    <input type="radio" name="jk" value="perempuan"> Perempuan
+                </td>
+            </tr>
+
+            <tr>
+                <td>Agama</td>
+                <td>
+                    <select name="agama">
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Katolik</option>
+                        <option>Hindu</option>
+                        <option>Buddha</option>
+                        <option>Konghuchu</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Bahasa yang Dikuasai</td>
+                <td>
+                    <input type="checkbox" name="bahasa" value="indonesia"> Indonesia
+                    <input type="checkbox" name="bahasa" value="inggris"> Inggris
+                    <input type="checkbox" name="bahasa" value="arab"> Arab
+                    <input type="checkbox" name="bahasa" value="mandarin"> Mandarin
+                </td>
+            </tr>
+
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat" rows="3" cols="30"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Foto Muka 3x4:</td>
+                <td><input type="file" name="foto" accept="image/*"></td>
+            </tr>
+
+            <tr>
+                <td>No. HP:</td>
+                <td><input type="tel" name="nohp" placeholder="08xxxxxxxxxx"></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" placeholder="xxx@email.com"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
